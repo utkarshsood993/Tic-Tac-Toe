@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c8c6af;
+}
+
+h1 {
+    color: #bd897e;
+    text-align: center;
+    font-size: 80px;
+}
+
+.winner-message{
+    color: #bd897e;
+    text-align: center;
+    font-size: 40px;
+}
+
+.buttons {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    font-size: 10vmin;
+    background-color: #c8c6af;
+    border: #c8c6af;
+    gap: 0;
+    
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 300px;
+}
+
+.btn {
+    text-align: center;
+    height: 65px;
+    width: 155px;
+    border-radius: 10px;
+    background-color: #f87666;
+    color: beige;
+    
+}
+
+#reset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+#button0{
+    border-right: 10px solid red;
+    border-bottom: 10px solid red;
+}
+
+#button1{
+    border-right: 10px solid red;
+    border-bottom: 10px solid red;
+    border-left: 10px solid red;
+}
+#button2{
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+}
+#button3{
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+    border-bottom: 10px solid red;
+}
+#button4{
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+    border-bottom: 10px solid red;
+    border-left: 10px solid red;
+}
+
+#button5{
+    border-top: 10px solid red;
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+}
+#button6{
+    border-right: 10px solid red;
+    border-top: 10px solid red;
+}
+#button7{
+    border-right: 10px solid red;
+    border-top: 10px solid red;
+    border-left:10px solid red;;
+}
+#button8{
+    border-left: 10px solid red;
+    border-top: 10px solid red;
+}
