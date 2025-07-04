@@ -139,7 +139,7 @@ h1 {
 .reset-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 @keyframes pop {
